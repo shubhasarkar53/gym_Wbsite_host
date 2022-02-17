@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Fit Gym</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&family=Playfair+Display&display=swap"
+    rel="stylesheet">
+
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+        color: whitesmoke;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+
+
+    }
+
+
+
+    .left {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        top: 12px;
+        margin-left: 55px;
+
+    }
+
+    .left img {
+        width: 45px;
+        height: 45px;
+        margin: 3px auto;
+        display: block;
+
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+
+    .mid {
+        /* border: 2px solid rgb(0, 98, 255); */
+        margin: 24px auto;
+        display: block;
+        width: 48%;
+        text-align: center;
+    }
+
+    .mid li {
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .mid li a {
+        color: white;
+        text-decoration: none;
+        padding: 9px;
+        margin: 21px;
+        font-size: 19px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(219, 219, 219);
+        text-decoration: underline;
+
+    }
+
+
+    .right {
+        /* border: 2px solid rgb(0, 255, 0); */
+        position: absolute;
+        display: inline-block;
+        right: 34px;
+        top: 12px;
+    }
+
+    .btn {
+        width: 130px;
+        color: rgb(248 248 248);
+        background-color: #373737;
+        padding: 3px;
+        border-radius: 34px;
+        margin: 11px;
+        font-size: 15px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+    .btn:hover {
+        color: grey;
+        cursor: pointer;
+        background-color: #2b2b2b;
+    }
+
+    .container {
+        border: 2px solid #cecece;
+        display: inline-block;
+        width: 508px;
+        height: 404px;
+        margin: 69px;
+        padding: 67px;
+        padding-top: 21px;
+        border-radius: 9px;
+    }
+
+    .container input {
+        display: block;
+        width: 100%;
+        margin: 16px 5px;
+        border-radius: 11px;
+        font-size: 19px;
+        padding: 0px;
+        text-align: center;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+
+
+
+    .con_heading {
+        text-align: center;
+        font-size: 30px;
+        margin: 0px;
+        padding: 10px;
+    }
+</style>
+
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://www.pngkit.com/png/full/239-2392915_logo-gym-logo-png-white.png" alt="">
+            <div class="title">
+                Keep Fit Gym
+            </div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">Fees Structure</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <input class="btn" type="button" value="Contact Us">
+            <input class="btn" type="button" value="Email">
+        </div>
+    </header>
+    <div class="container">
+        <h3 class="con_heading">
+            The Best Gym in This City
+        </h3>
+        <input type="text" name="name" id="" placeholder="Enter Your Name">
+        <input type="text" name="age" id="" placeholder="Enter Your Age">
+        <input type="text" name="gender" id="" placeholder="Enter Your Gender">
+        <input type="email" name="Email" id="" placeholder="Enter Your Email">
+        <input type="number" name="phone" id="" placeholder="Enter Your Phone Number">
+
+        <input class="btn" type="button" value="Submit">
+    </div>
+</body>
+
+</html>
